@@ -1,0 +1,66 @@
+
+
+
+
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 100px) and (max-width: 450px) {
+    #tea-card > div{
+        margin: auto;
+        width: 300px;
+        height: 700px;
+    }
+}
+/* tab or pad device */
+@media only screen and (min-width: 451px) and (max-width: 920px) {
+    #tea-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #tea-card > div{
+        margin: auto;
+        width: 300px;
+        height: 700px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
